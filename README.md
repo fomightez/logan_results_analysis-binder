@@ -2,8 +2,7 @@
 Demonstrate analysis of Logan Search results in a MyBinder-served session.
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/logan_results_analysis-binder
-/main?urlpath=%2Flab%2Ftree%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/logan_results_analysis-binder/main?urlpath=%2Flab%2Ftree%2Findex.ipynb)
 
 -----------
 
