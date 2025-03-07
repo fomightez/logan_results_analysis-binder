@@ -177,7 +177,6 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette='husl', order=None, legen
     # Adjust layout to prevent label cutoff
     plt.tight_layout()
     
-    return plt
 
 # Example usage:
 labels = [simplifytags(x) for x in file_tags_per_file]
