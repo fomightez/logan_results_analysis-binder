@@ -15,7 +15,8 @@ __version__ = "0.1.0"
 # manner. Then based on what it showed and what I wanted to emphasize I adapted 
 # it to the code found below. This produced a reasonable plot, however, it 
 # it morphed into a nicer one as determined what to show.
-'''import seaborn as sns
+'''
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 def simplifytags(tag):
@@ -78,8 +79,6 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette='husl', order=None, legen
     
     # Adjust layout to prevent label cutoff
     plt.tight_layout()
-    
-    return plt
 
 # Example usage:
 labels = [simplifytags(x) for x in file_tags_per_file]
@@ -204,6 +203,13 @@ plt.show()
 #*******************************************************************************
 
 
+
+
+
+
+#######***************THIRD AND FINAL SECTION*****************************######
+# BELOW IS THE FINAL BLOCK AND THIS IS CODE THAT ISN'T COMMENTED OUT AND SO IT
+# IS THE ONE THAT CURRENTLY GETS RUN.
 # Reconstructed Matplotlib version of that grouped barplot fixing the issues of 
 # the legend and  centering of the group labels (worked out with Claude.ai's 
 # help). The issue of the object code was eliminated in the course of this.
@@ -305,9 +311,8 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette=None, order=None, gene_na
                        loc='center left', bbox_to_anchor=(1, 0.5), frameon=False)
     
     # Adjust layout to make room for legend
-    plt.tight_layout()
-    
-    return plt
+    plt.tight_layout()    
+    return fig
 
 # Example usage:
 labels = [simplifytags(x) for x in file_tags_per_file]
@@ -317,4 +322,3 @@ colors = ['#1f77b4', 'cornflowerblue', '#ff7f0e', '#ef6f2e']
 # Call the function
 plot = plot_homo_sapiens_counts(dfs, labels, palette=colors, order=desired_order)
 plt.show()
-
