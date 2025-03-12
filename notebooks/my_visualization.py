@@ -248,7 +248,11 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette=None, order=None, gene_na
     
     # Prepare data for plotting
     #tsl_groups = ['TSL1', 'TSL4'] # would hardcode what I want as order
-    tsl_groups = list(set(ratings)) # gives same as what I would otherwise hardcode; the set step must order in some way or just 50-50 chance came out how I wanted? 
+    #tsl_groups = list(set(ratings)) # gives same as what I would otherwise 
+    # hardcode (I thought originally!!); the set step must order in some way or 
+    # just 50-50 chance came out how I wanted?  ANSWER: Turns out just was 
+    # chance. I started seeing it come out wrong! Make sure to add sort:
+    tsl_groups = sorted(list(set(ratings)))
     
     '''
     # Explicitly order the data
