@@ -292,8 +292,8 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette=None, order=None, gene_na
     # Customize the plot
     ax.set_xlabel('Transcript Support Level Rating')
     ax.set_ylabel('Count')
-    ax.set_title(('Number of $\mathit{Homo\ sapiens}$ SRA Datasets Containing the '
-           '\nQuery Sequences from $\mathit{' + gene_name + '}$ Transcripts'))
+    ax.set_title(('Number of $\mathit{Homo\ sapiens}$ SRA Datasets Thru Dec. 2023 Containing '
+           '\nthe Query Sequences from $\mathit{' + gene_name + '}$ Transcripts'))
     
     # Set x-ticks exactly at the center of the groups
     ax.set_xticks([0, 1])
