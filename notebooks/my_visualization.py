@@ -61,7 +61,7 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette='husl', order=None, legen
     #print(plot_df) #Uncomment this to show the counts!
     
     # Customize the plot
-    plt.title(('Number of $\mathit{Homo\ sapiens}$ SRA Datasets Containing the '
+    plt.title(('Number of $\mathit{Homo\ sapiens}$ Transcriptomic SRA Datasets\nContaining the '
            'Query Sequences from $\mathit{' + gene_name + '}$ Transcripts'))
     #plt.xticks(rotation=45)
     plt.xlabel('Query Sequence Identifier\n(length = 31 nt & for k-mer index, $\mathit{k}$ = 31)')
@@ -158,7 +158,7 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette='husl', order=None, legen
     g.legend.set_title('Query Sequence Identifier\n(length = 31 nt & for k-mer index, $\mathit{k}$ = 31)')
     
     # Customize the plot
-    plt.title(('Number of $\mathit{Homo\ sapiens}$ SRA Datasets Containing the '
+    plt.title(('Number of $\mathit{Homo\ sapiens}$ Transcriptomic SRA Datasets\nContaining the '
            'Query Sequences from $\mathit{' + gene_name + '}$ Transcripts'))
     #plt.xticks(rotation=45)
     #plt.xlabel('Query Sequence Identifier\n(length = 31 nt & for k-mer index, $\mathit{k}$ = 31)')
@@ -292,7 +292,7 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette=None, order=None, gene_na
     # Customize the plot
     ax.set_xlabel('Transcript Support Level Rating')
     ax.set_ylabel('Count')
-    ax.set_title(('Number of $\mathit{Homo\ sapiens}$ SRA Datasets Thru Dec. 2023 Containing '
+    ax.set_title(('Number of $\mathit{Homo\ sapiens}$ Transcriptomic SRA Datasets\nThru Dec. 2023 Containing '
            '\nthe Query Sequences from $\mathit{' + gene_name + '}$ Transcripts'))
     
     # Set x-ticks exactly at the center of the groups
