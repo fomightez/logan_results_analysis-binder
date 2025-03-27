@@ -1,0 +1,52 @@
+Instrument,Year,Category,Read Type
+Illumina HiSeq 2500,2012,Old,Short
+Illumina HiSeq 2000,2010,Old,Short
+Illumina NovaSeq 6000,2017,New,Short
+NextSeq 500,2014,New,Short
+Illumina HiSeq 4000,2015,New,Short
+HiSeq X Ten,2014,New,Short
+BGISEQ-500,2016,Old,Short
+NextSeq 550,2015,New,Short
+Illumina HiSeq 3000,2015,New,Short
+Illumina MiSeq,2011,Old,Short
+Illumina Genome Analyzer II,2008,Old,Short
+Illumina HiSeq 1500,2012,Old,Short
+Illumina HiSeq 1000,2010,Old,Short
+Illumina Genome Analyzer,2006,Old,Short
+Illumina HiSeq X,2014,Old,Short
+MGISEQ-2000RS,2018,New,Short
+Illumina Genome Analyzer IIx,2009,Old,Short
+Sequel II,2019,New,Long
+GridION,2017,New,Long
+Ion Torrent Proton,2012,Old,Short
+DNBSEQ-G400,2018,New,Short
+MinION,2014,New,Long
+NextSeq 2000,2020,New,Short
+Revio,2022,New,Long
+454 GS FLX,2005,Old,Short
+454 GS FLX Titanium,2008,Old,Short
+454 GS Junior,2009,Old,Short
+454 GS 20,?,Old,Short
+AB 5500 Genetic Analyzer,?,?,Short
+AB 5500xl Genetic Analyzer,?,?,Short
+AB SOLiD 4 System,?,?,Short
+AB SOLiD 4hq System,?,?,Short
+AB SOLiD System 3.0,?,?,Short
+AB SOLiD 3 Plus System,?,?,Short
+DNBSEQ-G50,2017,New,Short
+DNBSEQ-T7,2018,New,Short
+Helicos HeliScope, 2008,Old,Short
+HiSeq X Five,?,?,Short
+Illumina HiScanSQ,?,?,Short
+Illumina HiSeq X Ten,?,?,Short
+Illumina MiniSeq,?,?,Short
+Ion S5,2018,New,Short
+Ion S5 XL,?,?,Short
+Ion Torrent PGM,?,?,Short
+Ion Torrent S5,?,?,Short
+Ion Torrent S5 XL,?,?,Short
+NextSeq 1000,?,?,Short
+PacBio RS II,2013,?,Long
+PromethION,?,?,Long
+Sequel,2015,New,Long
+unspecified,ND,ND,ND
