@@ -82,7 +82,7 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette='husl', order=None, legen
 
 # Example usage:
 labels = [simplifytags(x) for x in file_tags_per_file]
-desired_order = [labels[3],labels[2],labels[0], labels[1]]  # Replace with your actual k-mer names in desired order
+desired_order = [labels[2],labels[1],labels[0], labels[3]]  # Replace with your actual k-mer names in desired order
 #colors = ['#1f77b4','#ff7f0e', '#2ca02c', '#d62728']
 colors = ['#1f77b4', 'cornflowerblue','#ff7f0e', '#ef6f2e']
 legend_text = "blues: TSL1\noranges: TSL4"
@@ -319,7 +319,7 @@ def plot_homo_sapiens_counts(dfs, labels=None, palette=None, order=None, gene_na
 
 # Example usage:
 labels = [simplifytags(x) for x in file_tags_per_file]
-desired_order = [labels[2],labels[1],labels[0], labels[3]]  # Replace with your actual k-mer names in desired order
+desired_order = [labels[3],labels[1],labels[2], labels[0]]  # Replace with your actual k-mer names in desired order
 colors = ['#1f77b4', 'cornflowerblue', '#ff7f0e', '#ef6f2e']
 
 # Call the function
