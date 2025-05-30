@@ -47,6 +47,7 @@ Ion Torrent S5,?,?,Short
 Ion Torrent S5 XL,?,?,Short
 NextSeq 1000,?,?,Short
 PacBio RS II,2013,?,Long
+PacBio RS,2010,?,Long
 PromethION,?,?,Long
 Sequel,2015,New,Long
 unspecified,ND,ND,ND
