@@ -13,6 +13,8 @@ snakemake
 pulp==2.7.0
 jupytext
 rich
+ipympl
+mplcursors
 nbgitpuller
 
 
